@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+.load-more-button {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 45%;
+}
+
+.loadmore {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.hr-line {
+  position: relative;
+  color: gray;
+}
+@media only screen and (max-width: 740px) {
+  .center-button {
+    left: 32%;
+  }
+}

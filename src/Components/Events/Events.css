@@ -1,0 +1,31 @@
+.events-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.events-grid .total-events {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.events-grid .events-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px 60px;
+}
+@media only screen and (max-width: 1024px) {
+  .events-grid .events-card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .events-grid .events-card {
+    grid-template-columns: 1fr;
+  }
+  .events-grid {
+    margin-top: 132px;
+  }
+}
